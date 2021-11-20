@@ -52,12 +52,12 @@ async def hmm(event):
         	return
     st = await event.client(GetFullUserRequest(event.sender_id))
     user_text = f"""**Hello {st.user.first_name},
-Welcome To {Config.ACCOUNT_GEN_NAME} Account Generator Bot
+Welcome To {Config.ACCOUNT_GEN_NAME} Limited/Unlimited Account Generator Bot
 
 To Know About commands type:
 /cmds
 
-Bot Made With ❤️ By @CyberBoyAyush**
+Bot Made With ❤️ By @Jimi_Bots**
 """ 
     await event.reply(user_text) 
     
